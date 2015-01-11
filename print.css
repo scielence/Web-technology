@@ -1,0 +1,20 @@
+/* printable css style sheet of our web page */
+
+/* creates black and white for printing*/ 
+body {
+	background-color: white;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	text:justify;
+}
+
+section {
+	page-break-after: auto;
+	page-break-inside: avoid;
+}
+
+a:link:after { content: " (" attr(href) ") "; } /*this code was taken from: http://www.webdesignerdepot.com/2010/01/10-tips-for-better-print-style-sheets/ . 
+                                                what it does is display the hyperlinks instead of their text*/
