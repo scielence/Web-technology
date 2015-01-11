@@ -1,0 +1,37 @@
+body	{	
+	margin: 2% 9% 2% 9%;
+	font-family: "Arial", sans-serif;
+	color: rgb(0,146,0);
+	font-size: 100%;
+	background:
+			rgb(82,5,179)
+			no-repeat
+			center
+			fixed;
+		border: 1px dotted orange;
+		padding-top: 2.5%;
+		padding-bottom: 2.5%;
+		padding-left: 4%;
+		padding-right: 4%;
+		}
+
+a		{
+color: rgb(255,224,16);
+}
+
+h1 {
+margin: 1% 7% 1% 7%
+color: rgb(255,224,16);
+}
+
+h2 {
+margin: 1% 7% 1% 7%
+color: rgb(255,224,16);
+}
+
+table {
+margin-left: auto;
+margin-right: auto;
+color: white;
+background-image: url("http://7-themes.com/data_images/out/17/6827704-almonds-wallpaper.jpg");
+}
