@@ -1,8 +1,8 @@
 body	{	
 	margin: 2% 9% 2% 9%;
-	font-family: "Arial", sans-serif;
-	color: rgb(97,79,24);
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font: normal small-caps 300 100%;
+	color: rgb(97,79,24);
 	text-algin: justify;
 	background:
 			rgb(255,250,227)
@@ -16,6 +16,13 @@ body	{
 		padding-right: 4%;
 		}
 		
+ul		{
+	list-style: circle inside none;
+	}
+	
+ol		{
+	list-style: circle inside none;
+	}
 
 p {
 text-indent: 5%
