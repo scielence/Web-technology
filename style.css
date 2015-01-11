@@ -1,14 +1,14 @@
 body	{	
 	margin: 2% 9% 2% 9%;
 	font-family: "Arial", sans-serif;
-	color: rgb(0,146,0);
+	color: rgb(97,79,24);
 	font-size: 100%;
 	background:
-			rgb(82,5,179)
+			rgb(255,250,227)
 			no-repeat
 			center
 			fixed;
-		border: 1px dotted orange;
+		border: 3px double black;
 		padding-top: 2.5%;
 		padding-bottom: 2.5%;
 		padding-left: 4%;
@@ -16,17 +16,17 @@ body	{
 		}
 
 a		{
-color: rgb(255,224,16);
+color: rgb(194,145,0);
 }
 
 h1 {
 margin: 1% 7% 1% 7%
-color: rgb(255,224,16);
+color: rgb(56,43,6);
 }
 
 h2 {
 margin: 1% 7% 1% 7%
-color: rgb(255,224,16);
+color: rgb(56,43,6);
 }
 
 table {
