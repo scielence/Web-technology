@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Web technology: Assignment 1</title>
+	<link rel="stylesheet" href="screen.css">
+</head>
+
+<body>
+	
+	
+	
+	
+	<!--each question will be treated in a section tag.-->
+	<section> <!--QUESTION 1, like other sections uses html names for certain characters-->		
+		<h1><a id="top">1.) Create a document with the text "Hello World!" in a word processor such as Microsoft Word or LibreOffice Writer. Save the file as a Web page or HTML document and inspect the HTML source (you can do this within the word processor, but it may be easier to do it using a plain text editor). Describe briefly your findings.</a></h1>
+				<p>We created a LibreOffice document with the text &#39;Hello World!&#39; then we saved the file as .html and opened it in the browser. Then we inspected the source and got the following result:</p>
+				<figure><figcaption>Hello world code</figcaption><img src="http://i.imgur.com/AlqSo6A.png" alt="html code hello world"></figure>
+				<p>Just like we have learned in the previous lectures, it creates a header and a body that are able to display Hello World&#33;. However it took it&#39;s meta and other settings from LibreOffice 3.5 &#40;Linux&#41;. It also incorporates two lines of CSS in order to adjust the margins and a line of CSS in the &#60;p&#62; element.</p>
+	</section>
+	
+	
+	
+	<section> <!--QUESTION 2, contains hyperlink and <q> tags-->
+		<h1>2.&#41; Explain the difference between <q>the Internet</q> and <q>the World-Wide Web</q>. Provide links to the online resources you used &#40;if any&#41; to answer this question.</h1>
+				<p>From what we learned in the previous lecture we know that the internet is basically a &#39;network of networks&#39; and describes the physical features that make up the internet, where as the world wide web refers to the files and folders etc. on the various computers and servers. According to <a href="http://www.webopedia.com/DidYouKnow/Internet/Web_vs_Internet.asp">Webopedia</a> The internet is able to communicate through the network and is assisted with a variety in protocols. Whereas the web solely uses HTTP.</p>
+	</section>
+	
+	
+	
+	<section> <!--QUESTION 3, contains 2 unordered lists and text type 'pre' to keep organized. Also contains abbreviation in first list-->
+		<h1>3.) Find out which port (according to the current IANA assignment) is used for the following  protocols:</h1>
+				<ul>
+					<li><abbr title="Hypertext Transfer Protocol">HTTP</abbr></li>
+					<li><abbr title="Secure Shell">SSH</abbr></li>
+					<li><abbr title="File Transfer Protocol">FTP</abbr></li>
+				</ul>
+		<h2>Provide a one line description of all three protocols, indicate with a link which authoritative source you have used for each description, and why you think your source is authoritative for this topic.</h2>
+				<p>As we learned in the previous lectures; technically any port could be assigned to a protocol and any protocol could be assigned to any port, however these are the official/default ones set by IANA:</p>
+				<dl>
+				<dt>SSH:</dt> 
+					<dd><pre>port number 22:
+SSH uses encryption to provide secure communications. 
+<a href="http://www.webopedia.com/TERM/S/SSH.html">Webopedia</a>  (source spacializes on defenitions of online-tech terms)</pre></dd>
+				<dt>HTTP:</dt>
+					<dd><pre>port number 80:
+HTTP and its implementation of hypertext is the basis for communication on the   World Wide Web.
+<a href="http://www.webopedia.com/TERM/H/HTTP.html">Webopedia</a> (source spacializes on defenitions of online-tech terms)</pre></dd>
+				<dt>FTP:</dt>
+					<dd><pre>port number 20, (port 21 for control):
+he file transfer protocol is used to exchange files between computers 
+<a href="https://kb.iu.edu/d/aerg">https://kb.iu.edu/d/aerg</a> (file is authorative since it comes from a university)</pre></dd>
+				</dl>
+	</section>
+	
+	
+	
+	<section> <!--QUESTION 4-->
+		<h1>4.) Make sure you have read Paul Ford's article "On HTML5 and the Group That Rules the Web" (see Reader on BlackBoard). What is the key difference between the HTML5 Recommendation published by W3C and the one published by the WHATWG? </h1>
+				<p>WHATWG renamed the HTML5 protocol to &#34;HTML living standard&#34; which shows that it a continuously evolving iteration of the tool, while W3C still calls it HTML5 and is currently working on HTML5.1 </p>
+	</section>
+	
+	
+	
+	<section> <!--QUESTION 5-->
+		<h1>5.) What are the three essential technologies that Tim Berners-Lee created to build the World-Wide Web on top of the already existing Internet infrastructure? </h1>
+				<ol>
+					<li>HTTP</li>
+					<li>HTML (non-organizational)</li>
+					<li>URI</li>
+				</ol>
+	</section>
+	
+	
+	
+	<section> <!--QUESTION 6, uses code texttype and <em>-->
+		<h1>6.) Look at the following two HTML paragraphs:</h1><pre>   
+      			
+      	<code>&#60;p&#62;This is an &#60;strong&#62;important&#60;/strong&#62; point.&#60;/p>
+
+      	&#60;p&#62;This is another &#60;b&#62;important&#60;/b&#62; point.&#60;/p&#62;</code>
+    
+				</pre>
+		<h2>Explain why the HTML of the first paragraph should be preferred. Illustrate this with an example. Also, identify another pair of HTML constructs for which the same rationale holds.</h2>
+				<p>&#60;b&#62; just makes the text bold and is a style given to the text to make it appear more &#39;strong&#39;. Whereas &#60;strong&#62; is an indication for user agents that this is truly an important text. For example, with browsers that assist blind people, &#60;strong&#62; would be used to <em>emphasize</em> on a spoken word and give it meaning, whereas &#60;b&#62; would just be rendered as normal.</p>
+	</section>
+	
+	
+	
+	<section> <!--QUESTION 7-->
+		<h1>7.) Identify one similarity and one difference between the HTML elements span and div.</h1>
+				<pre>One similarity: they both do not really add meaning to a HTML document (check question above) but can be used for CSS.
+
+One difference: span is an in-line element, whereas div a (mostly) a block-line element.</pre>
+	</section>
+	
+	
+	
+	<section> <!--QUESTION 8-->
+		<h1>8.) Describe the pros and cons of using frames in HTML.</h1>
+				</p>One should be using frames because it allows for more content to be displayed at once and adds organization through layout and a variety of design options. Also allows for dynamic content. </p>
+				<p>One should not use frames because it causes for some user agents to possibly not display frames that are supposed to be displayed. Also, when (for ex.) packages go corrupt or get delayed, content could possibly go missing. Frames and framesets are also prone to not getting properly indexed by search engines.</p>
+	</section>
+	
+	
+	
+	<section> <!--QUESTION 9-->
+		<h1>9.) List potential benefits of using CSS. (Expected length: 7-8 lines) </h1>
+				<p>As we learned from previous lectures, CSS is the common style markup of creating a web page. It can be used to add flair to a web page as opposed to plain text. Some examples are setting margins, changing text/background colors, etc. Changes and code readability is also made easier since the style code could be all defined in the &#60;head&#62; element. Even if you do not want a bunch of code in your &#60;head&#62; or anywhere else in the HTML document (such as: trying to get better indexing from search engines) you can create an apart .css file which can be implemented using only one line. With this, one could also for example have more than one .css file so that users could potentially choose the style they like the most and that .css is then used in the HTML web page (example: for users with limitations, or to make web page more festive during holiday dates)</p>
+	</section>
+	
+	
+	
+	<section> <!--QUESTION 10-->
+		<h1>10.) How would you expect a Web browser to render an emphasized word (i.e., included in an <em>em</em> element) in a paragraph with an italic font style? Check whether your browser behaves according to your expectation.</h1>
+				<p>the standard rendering of an emphasized element is &quot;slanted&quot; (like italic but with a smaller angle difference from the perpendicular line) on my browser (safari) emphasized elements are shown as italic, rather than slanted.
+				the final result is that there is no way to tell apart the <em>em</em> element from the <em>italic</em> elements.</p>
+	</section>
+	
+	
+	
+	<section> <!--QUESTION 11-->
+		<h1>11.) Pick two web browsers from the list below. What are in your view the key differences between the two browsers? </h1>
+				<p><strong>Safari vs. Iceweasel</strong>
+
+				Both of them are heavily specified for the operation system (especially Iceweasel). Safari is made by apple and optimized for the iOS and comes with a new mac. Since Safari is normally meant for use with apple computers so the minimum performance of a machine running Safari is probably an apple computer, therefore apple can focus on aesthetics Whereas Iceweasel is open source and should be able to run on any system (regardless of their processing capabilities) and  has to be downloaded previously for the Linux Debian OS. Iceweasel is a specialised version of Firefox for Linux. </p>
+	<pre>
+	
+	<a href="#top">Go to top</a></pre>
+	</section>
+	
+	
+	
+	
+	
+	<section>
+		<h1>Inventory</h1>
+		<form action="http://wt.ops.few.vu.nl/api/6bef3e2e" method="post">
+		<table>
+			<caption>Local Nut Market</caption>
+				<tr>
+					<th>Name</th>
+					<th>Category</th>
+					<th>Amount (kg)</th>
+					<th>Date</th>
+					<th>Location</th>
+				</tr>
+				<tr>
+					<td>Walnuts</td>
+					<td>Nuts</td>
+					<td>2</td>
+					<td>01/01/2015</td>
+					<td>Amsterdam</td>
+				</tr>
+				<tr>
+					<td>Peanuts</td>
+					<td>Nuts</td>
+					<td>1</td>
+					<td>18/12/2014</td>
+					<td>Amsterdam</td>
+				</tr>
+				<tr>
+					<td>Almonds</td>
+					<td>Nuts</td>
+					<td>5</td>
+					<td>10/11/2014</td>
+					<td>Utrecht</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="name"/></td>
+					<td><input type="text" name="category"/></td>
+					<td><input type="text" name="amount"/></td>
+					<td><input type="text" name="date"/></td>
+					<td><input type="text" name="location"/></td>
+				</tr>		
+			</table>
+			<input type="submit">
+			</form>
+	</section>
+		
+		<a href="assignmentprint.html">printable version</a>
+		<p><strong>By  B062, Jeroen & Gabriel</strong></p>
+		
+		
+</body>
+</html>
