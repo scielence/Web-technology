@@ -4,7 +4,68 @@ body	{
 	font: normal small-caps 300 100%;
 	color: rgb(97,79,24);
 	text-algin: justify;
+	background:body	{	
+	margin: 2% 9% 2% 9%;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font: normal small-caps 300 100%;
+	color: rgb(97,79,24);
+	text-algin: justify;
 	background:
+			rgb(255,250,227)
+			no-repeat
+			center
+			fixed;
+		border: 3px double black;
+		padding-top: 2.5%;
+		padding-bottom: 2.5%;
+		padding-left: 4%;
+		padding-right: 4%;
+		}
+		
+		img {
+		max-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		
+ul		{
+	list-style: circle inside none;
+	}
+	
+ol		{
+	list-style: circle inside none;
+	}
+
+p {
+text-indent: 5%
+}
+
+a		{
+color: rgb(56,43,6);
+}
+
+
+
+h1 {
+margin: 1% 7% 1% 7%
+color: rgb(56,43,6);
+text-decoration: underline;
+text-transform: capitalize;
+}
+
+h2 {
+margin: 1% 7% 1% 7%
+color: rgb(56,43,6);
+text-decoration: underline;
+text-transform: capitalize;
+}
+
+table {
+margin-left: auto;
+margin-right: auto;
+color: white;
+background-image: url("http://7-themes.com/data_images/out/17/6827704-almonds-wallpaper.jpg");
+}
 			rgb(255,250,227)
 			no-repeat
 			center
