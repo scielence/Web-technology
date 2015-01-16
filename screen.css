@@ -53,6 +53,7 @@ h2 {
 
 table {
 	max-width:100%;
+	border:black 10px;
 	margin-left: auto;
 	margin-right: auto;
 	color: white;
