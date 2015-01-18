@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="screen.css">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>Web technology: Assignment 1</title>
-	<link rel="stylesheet" href="screen.css">
+	<script src="sorttable.js"></script>
+	<script type="text/javascript">
+		function changeCSS(cssFile, cssLinkIndex) {
+ 
+        var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+ 
+        var newlink = document.createElement("link");
+        newlink.setAttribute("rel", "stylesheet");
+        newlink.setAttribute("type", "text/css");
+        newlink.setAttribute("href", cssFile);
+ 
+        document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+      }
+    </script>
+
 </head>
 
 <body>
 	
+	<button type="button" onclick="changeCSS('print.css', 0)">printable version</button>
+	<button type="button" onclick="changeCSS('screen.css', 0)">web version</button>
 	
 	<a id="top" href="#table">Go to table</a>
 	
@@ -136,7 +153,7 @@ One difference: span is an in-line element, whereas div a (mostly) a block-line 
 	<section><a id="table"></a>
 		<h1>Inventory</h1>
 		<form action="http://wt.ops.few.vu.nl/api/6bef3e2e" method="post">
-		<table>
+		<table border="1">
 			<caption>Local Nut Market</caption>
 				<tr>
 					<th>Name</th>
@@ -177,7 +194,6 @@ One difference: span is an in-line element, whereas div a (mostly) a block-line 
 			<input type="submit">
 			</form>
 	</section>
-		<a href="assignmentprint.html">printable version</a>
 		<p><strong>By  B062, Jeroen & Gabriel</strong></p>
 		
 		
